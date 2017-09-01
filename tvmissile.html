@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="tvcss/tvmissile.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Asul'>
+  <title>Tank-V-Missile</title>
+</head>
+<body>
+  <div id="startScreen">
+    <p id="gamerule">
+      <gamename>----- Tank-V-Missile -----</gamename><br><br>INSTRUCTIONS<br>Shoot down the missile with the tank.
+      To shoot, click on the tank.
+      Each missile shot down is worth 5 points.
+      Maximum score is 75. Good luck!
+    </p>
+    <button id="startButton">Start Game</button>
+  </div>
+  <div id="gameOverScreen">
+    <p id="gameScore"></p><br><br>
+    <div id="scoreButtons">
+      <button id="restartButton">Play Again</button>
+      <button id="noThanksButton">No Thanks!</button>
+    </div>
+  </div>
+  <div id="score"></div>
+  <div id="missile"></div>
+  <div id="cannon"></div>
+  <div id="tank">
+    <div id="tanktop">
+      <div class="compo" id="cap"></div>
+      <div class="compo" id="barrel-panel"></div>
+      <div class="compo" id="barrel"></div>
+      <div class="compo" id="buffer"></div>
+    </div>
+    <div class="compo" id="tank-upper"></div>
+    <div class="compo" id="tank-lower">
+      <div id="wheel-section">
+        <div class="wheels" id="wheel1"></div>
+        <div class="wheels" id="wheel2"></div>
+        <div class="wheels" id="wheel3"></div>
+        <div class="wheels" id="wheel4"></div>
+        <div class="wheels" id="wheel5"></div>
+        <div class="wheels" id="wheel6"></div>
+        <div class="wheels" id="wheel7"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio tag for the shooting sound of the tank -->
+  <audio style="display:none" id="tankShoot">
+     <source src="tvmusic/tankShoot.wav" type="audio/wav">
+  </audio>
+
+  <!-- Audio tag for the bursting of the missile -->
+  <audio style="display:none" id="missileBurst">
+     <source src="tvmusic/missileBurst.wav" type="audio/wav">
+  </audio>
+
+  <!-- Audio tag for the dropping of the missile -->
+  <audio style="display:none" id="missileDrop">
+     <source src="tvmusic/missileDrop.wav" type="audio/wav">
+  </audio>
+
+</body>
+<script type="text/javascript" src="tvjs/tvmissile.js"></script>
+</html>

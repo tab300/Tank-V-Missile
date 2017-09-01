@@ -1,0 +1,226 @@
+.compo{
+  position:relative;
+  background-image: url(../tvimages/camo.png);
+}
+
+#startScreen, #gameOverScreen{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left:33%;
+  top:33%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#gameOverScreen{
+  z-index:-1;
+}
+
+#gamerule, #gameScore{
+  position:relative;
+  font-family: Arial;
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-top-color: purple;
+  border-bottom-color: purple;
+  border-width: thin;
+  font-size: 12px;
+  top: 10%;
+  padding:3%;
+  text-align: center;
+  background-color: #282828;
+}
+
+#startButton, #restartButton, #noThanksButton{
+  background-color: black;
+  border-color: purple;
+  font-family: Impact;
+  border-style:solid;
+  border-width: thin;
+  border-radius: 10px;
+  position: relative;
+  left: 40%;
+  top:12%;
+  color: white;
+}
+
+#scoreButtons{
+  position:relative;
+  left:-9.5%;
+}
+
+gamename{
+  font-family:"Asul";
+}
+
+#startButton:hover, #restartButton:hover, #noThanksButton:hover{
+  cursor: pointer;
+}
+
+#score, #missile, #tank{
+  visibility: hidden;
+}
+
+#score{
+  position:absolute;
+  top:5%;
+  left:85%;
+  width:10%;
+  height:50px;
+  font-size:25px;
+  font-family:Impact;
+  line-height:50px;
+  text-align:center;
+  border-radius: 10px;
+  color:white;
+  border-color: purple;
+  border-width: thin;
+  border-style: solid;
+  background-color:black;
+}
+
+html{
+  background-image: url(../tvimages/desert.jpg);
+}
+
+#missile{
+  background-color:black;
+  width:75px;
+  height:10px;
+  border-top-right-radius:50%;
+  border-bottom-right-radius:50%;
+  position:relative;
+  border-left-color:white;
+  border-style:solid;
+  border-left-width:10px;
+}
+
+#cap{
+  width:50px;
+  height:10px;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  left:162px;
+}
+
+#barrel-panel{
+  width:75px;
+  height:25px;
+  top:0px;
+  left:150px;
+}
+
+#cannon{
+  position: relative;
+  width:15px;
+  height: 5px;
+  left:1000px;
+  top:496px;
+  box-shadow: 2px 2px 15px 7px orange;
+  background-color: orange;
+  border-color:orange;
+  border-style: solid;
+  border-width:thin;
+  border-radius: 50%;
+  visibility:hidden;
+}
+
+#barrel{
+  height:10px;
+  width:100px;
+  top:-17px;
+  left:50px;
+}
+
+#buffer{
+  height:20px;
+  width:100px;
+  top:-10px;
+  left:137px;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+}
+
+#tank-upper{
+  height:50px;
+  width:200px;
+  left:85px;
+  top:-11px;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+}
+
+#tank-lower{
+  height:20px;
+  width:194px;
+  left:85px;
+  top:-11px;
+  border-bottom-right-radius:25px;
+  border-bottom-left-radius:25px;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  background: none;
+  background-color:darkgreen;
+}
+
+
+#tank{
+  position:absolute;
+  left:1000px;
+  top:500px;
+}
+
+.wheels{
+  width: 18px;
+  height:18px;
+  border-radius:50%;
+  position: relative;
+  background-image: url(../tvimages/camo.png);
+  border-style: dotted;
+  border-color: darkgrey;
+}
+
+#wheel-section{
+  position: relative;
+  left:7px;
+}
+
+#wheel2{
+  top:0px;
+  left:2px;
+}
+
+#wheel2{
+  top:-24px;
+  left:27px;
+}
+
+#wheel3{
+  top:-48px;
+  left:54px;
+}
+
+#wheel4{
+  top:-72px;
+  left:82px;
+}
+
+#wheel5{
+  top:-96px;
+  left:109px;
+}
+
+#wheel6{
+  top:-120px;
+  left:136px;
+}
+
+#wheel7{
+  top:-144px;
+  left:161px;
+}
